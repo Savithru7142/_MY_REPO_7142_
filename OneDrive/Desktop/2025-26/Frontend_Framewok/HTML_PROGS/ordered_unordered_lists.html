@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: rgb(255, 174, 0);
+            display: flex;
+            justify-content: space-between;
+            padding: 0%;
+            margin: 0%;
+        }
+        .navbar ul{
+            display: flex;
+            padding: 0px;
+        }
+        .navbar li{
+            color: rgb(255, 255, 255);
+            list-style-type: none;
+            float: left;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .navbar li:hover{
+            background-color: rgb(0, 0, 0);
+        }
+         
+        .form-container{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <ul>
+        <li>Contact</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    <ul>
+        <li onclick="showform('signupform')">CREATE ACCOUNT</li>
+        <li onclick="showform('loginform')">LOGIN</li>
+    </ul>
+    </div>
+    <!--For CREATE ACCOUNT form-->
+    <div id="signupform" class="form-container">
+        <h1><b>SIGN-UP FORM</b></h1><br>
+        <input type="text" placeholder="Enter Username"><br>
+        <input type="password" placeholder="Enter password"><br>
+        <input type="email" placeholder="Enter email-id"><br>
+        <button>SIGN-UP</button>
+    </div>
+     <!--For LOGIN form-->
+    <div id="loginform" class="form-container">
+        <h1><b>LOGIN FORM</b></h1><br>
+        <input type="text" placeholder="Enter Username"><br>
+        <input type="password" placeholder="Enter password"><br>
+        <button>LOGIN</button>
+    </div>
+    <script>
+        function showform(formId){
+            document.querySelectorAll('.form-container').forEach(
+                form => {form.style.display='none'}
+            );
+            document.getElementById(formId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

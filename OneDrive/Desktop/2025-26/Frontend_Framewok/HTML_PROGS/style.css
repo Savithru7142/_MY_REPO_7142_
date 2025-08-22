@@ -1,0 +1,15 @@
+        .x{
+            color: orange;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .y{
+            color: rgb(255, 140, 0);
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{
+            background-color: black;
+        }

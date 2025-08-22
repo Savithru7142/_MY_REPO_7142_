@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "Welcome";
+        console.log("Given name:" + name);
+        console.log("char at 3rd position using at():" + name.at(2));
+        console.log("char at 3rd position using charAt():" + name.charAt(2));
+        console.log("char at 3rd position charcode using charCodeAt():" 
+                        + name.charCodeAt(2));
+        let x = "    Hai    ";
+        console.log("given x using trim():" + x.trim());
+        //string concatenation
+        let fname = "Raja";
+        let lname = " Sekhar";
+        let surname = "Madala.";
+        //let fullname = surname + fname + lname;
+        //or
+        let fullname = surname.concat(fname).concat(lname);
+        console.log("Fullname:" + fullname);
+
+        //to convert string to upper case
+        console.log("To upper:" + name.toUpperCase());
+
+        //to convert string to lower case
+        console.log("To lower:" + name.toLowerCase());
+
+        //string comparison
+        let a = new String("Hai");
+        let b = new String("Hai");
+        console.log("Comparison of a and b using == operator:" + (a == b)) // false
+        console.log("Comparison of a and b using === operator:" + (a === b)) //false
+        /* 
+        Note:
+           if we create string objects using new and then if we compare two strings which are
+            having same content, we will get false only.
+        */
+       //split the string based on delimiter
+       let n = "welcome";
+       let chars = n.split("");// here parameter is called as 'delimiter'
+       console.log("First charecter in chars array:", + chars[3]);
+       for(i of chars){ //here i means element of chars array
+        console.log(i + " ")
+       } 
+
+       //slice the string
+       let p = "This is a Javascript Book";
+       console.log("Slice:" + p.slice(10,20));
+       console.log("Slice:" + p.slice(10));
+       console.log("Slice:" + p.slice(-11,-5));
+       console.log("Substring:" + p.substring(2));
+    </script>
+</body>
+</html>
