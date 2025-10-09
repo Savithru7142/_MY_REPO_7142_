@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jdt"
+      label="%featureName"
+      version="3.20.200.v20250528-1830"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jdt"
+         version="3.19.900.v20250528-1830"/>
+
+   <plugin
+         id="org.eclipse.ant.ui"
+         version="3.10.100.v20250514-1721"/>
+
+   <plugin
+         id="org.eclipse.jdt.apt.core"
+         version="3.8.600.v20241001-0914"/>
+
+   <plugin
+         id="org.eclipse.jdt.apt.ui"
+         version="3.8.700.v20250319-0715"/>
+
+   <plugin
+         id="org.eclipse.jdt.apt.pluggable.core"
+         version="1.4.600.v20241001-0914"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.compiler.batch"
+         version="3.42.0.v20250526-2018"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         version="3.42.0.v20250523-0728"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.formatterapp"
+         version="1.2.300.v20241001-0914"/>
+
+   <plugin
+         id="org.eclipse.jdt.annotation"
+         version="2.3.100.v20241001-0914"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.manipulation"
+         version="1.23.0.v20250521-2253"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug.ui"
+         version="3.15.0.v20250516-0336"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug"
+         version="3.23.0.v20250516-0336"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit"
+         version="3.17.100.v20250429-2027"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit.core"
+         version="3.13.500.v20250108-1123"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit.runtime"
+         version="3.7.600.v20250118-1031"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit4.runtime"
+         version="1.3.100.v20231214-1952"/>
+
+   <plugin
+         id="org.eclipse.jdt.junit5.runtime"
+         version="1.1.300.v20231214-1952"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching"
+         version="3.23.300.v20250401-0654"/>
+
+   <plugin
+         id="org.eclipse.jdt.ui"
+         version="3.35.0.v20250521-0737"/>
+
+   <plugin
+         id="org.eclipse.jdt.doc.user"
+         version="3.15.2600.v20250522-0533"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching.macosx"
+         os="macosx"
+         version="3.6.300.v20240321-1645"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching.ui.macosx"
+         os="macosx"
+         version="1.4.300.v20240321-1645"/>
+
+   <plugin
+         id="org.eclipse.ant.launching"
+         version="1.4.700.v20250120-0913"/>
+
+</feature>
